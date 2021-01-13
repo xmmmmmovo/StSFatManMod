@@ -33,7 +33,7 @@ import theDefault.util.IDCheckDontTouchPls;
 import theDefault.util.TextureLoader;
 import theDefault.variables.DefaultCustomVariable;
 import theDefault.variables.DefaultSecondMagicNumber;
-import theDefaultKotlin.cards.KotlinCard;
+import cards.KotlinCard;
 
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -87,8 +87,8 @@ public class DefaultMod implements
     public static boolean enablePlaceholder = true;
     
     //This is for the in-game mod settings panel.
-    private static final String MODNAME = "Default Mod";
-    private static final String AUTHOR = "Gremious"; // And pretty soon - You!
+    private static final String MODNAME = "FatMan Mod";
+    private static final String AUTHOR = "xmmmmmovo"; // And pretty soon - You!
     private static final String DESCRIPTION = "A base for Slay the Spire to start your own mod from, feat. the Default.";
     
     // =============== INPUT TEXTURE LOCATION =================
@@ -173,18 +173,8 @@ public class DefaultMod implements
         logger.info("Subscribe to BaseMod hooks");
         
         BaseMod.subscribe(this);
-
-      /*
-           (   ( /(  (     ( /( (            (  `   ( /( )\ )    )\ ))\ )
-           )\  )\()) )\    )\()))\ )   (     )\))(  )\()|()/(   (()/(()/(
-         (((_)((_)((((_)( ((_)\(()/(   )\   ((_)()\((_)\ /(_))   /(_))(_))
-         )\___ _((_)\ _ )\ _((_)/(_))_((_)  (_()((_) ((_|_))_  _(_))(_))_
-        ((/ __| || (_)_\(_) \| |/ __| __| |  \/  |/ _ \|   \  |_ _||   (_)
-         | (__| __ |/ _ \ | .` | (_ | _|  | |\/| | (_) | |) |  | | | |) |
-          \___|_||_/_/ \_\|_|\_|\___|___| |_|  |_|\___/|___/  |___||___(_)
-      */
       
-        setModID("theDefault");
+        setModID("FatManMod");
         // cool
         // TODO: NOW READ THIS!!!!!!!!!!!!!!!:
         
