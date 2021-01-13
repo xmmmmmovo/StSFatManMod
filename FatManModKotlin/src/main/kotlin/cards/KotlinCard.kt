@@ -9,9 +9,9 @@ import com.megacrit.cardcrawl.characters.AbstractPlayer
 import com.megacrit.cardcrawl.core.Settings
 import com.megacrit.cardcrawl.monsters.AbstractMonster
 import com.megacrit.cardcrawl.vfx.combat.ShockWaveEffect
-import theDefault.DefaultMod
-import theDefault.DefaultMod.makeCardPath
-import theDefault.characters.TheDefault
+import FatManMod.DefaultMod
+import FatManMod.DefaultMod.makeCardPath
+import FatManMod.characters.TheDefault
 
 class KotlinCard : AbstractUtilityCard(ID, IMG, COST, TYPE, COLOR, RARITY, TARGET) {
     // /STAT DECLARATION/

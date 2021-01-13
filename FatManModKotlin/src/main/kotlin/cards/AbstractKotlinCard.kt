@@ -3,7 +3,7 @@ package cards
 import com.megacrit.cardcrawl.actions.AbstractGameAction
 import com.megacrit.cardcrawl.cards.AbstractCard
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon
-import theDefault.cards.AbstractDynamicCard
+import FatManMod.cards.AbstractDynamicCard
 
 abstract class AbstractUtilityCard(id: String,
                                    img: String?,
